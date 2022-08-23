@@ -29,6 +29,14 @@
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="@dimen/fab_margin"
         android:layout_marginBottom="16dp"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+        android:backgroundTint="@color/cor_fab"
+        android:contentDescription="botaoFab"
+        android:elevation="12dp"
+        android:foreground="@drawable/ic_pesquisa_24"
+        android:foregroundGravity="center"
+        android:src="@drawable/ic_pesquisa_24"
+        app:backgroundTint="#FFFFFF"
+        app:fabSize="normal"
+        tools:ignore="ImageContrastCheck" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
